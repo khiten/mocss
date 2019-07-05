@@ -227,3 +227,57 @@ HTMLがどれだけ階層化しても、エレメントは**その要素を簡�
   </figure>
 </section>
 ```
+
+
+---
+
+
+# サンプルコード
+
+```
+
+<div class="headlineNews-wrapper indexContent-wrapper as_bgGray">
+  <section class="headlineNews indexContent">
+    <h2 class="headlineNews-heading indexContent-heading">NEWS</h2>
+    <div class="headlineNews-list indexContent-content">
+      
+      <section class="news as_headline">
+        <div class="news-textWrapper">
+          <h3 class="news-title">これはニュース３です。</h3>
+          <time class="news-publishDate">2019.07.03</time>
+          <p class="news-category">イベント</p>
+          <div class="news-content">これはニュース３の最初の30文字とかそんな感じの文字列が並んでいるイメージなんですよ。</div>
+        </div>
+        <figure class="news-imageWrapper">
+          <img class="news-thumbnail fn_srcset" src="/img/news03.jpg">
+        </figure>
+      </section>
+      
+      <section class="news as_headline">
+        <div class="news-textWrapper">
+          <h3 class="news-title">これはニュース２です。</h3>
+          <time class="news-publishDate">2019.06.30</time>
+          <p class="news-category">お知らせ</p>
+          <div class="news-content">これはニュース２の最初の30文字とかそんな感じの文字列が並んでいるイメージなんですよ。</div>
+        </div>
+        <figure class="news-imageWrapper">
+          <img class="news-thumbnail fn_srcset" src="/img/news02.jpg">
+        </figure>
+      </section>
+      
+      <section class="news as_headline">
+        <div class="news-textWrapper">
+          <h3 class="news-title">これはニュース１です。</h3>
+          <time class="news-publishDate">2019.06.10</time>
+          <p class="news-category">募集</p>
+          <div class="news-content">これはニュース１の最初の30文字とかそんな感じの文字列が並んでいるイメージなんですよ。</div>
+        </div>
+        <figure class="news-imageWrapper">
+          <img class="news-thumbnail fn_srcset" src="/img/news01.jpg">
+        </figure>
+      </section>
+
+    </div>
+  </section>
+</div>
+```
