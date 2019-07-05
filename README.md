@@ -29,39 +29,39 @@ class="module-element-element"
 
 世界で認識されているような日本語はOK
 
-○ item
-✕ shohin
-○ cars
-✕ kuruma
-○ kimono
+○ item  
+✕ shohin  
+○ cars  
+✕ kuruma  
+○ kimono  
 
 #### 変に省略しない
 
-長いより短いほうがベターだけど見て意味がわからないくらいなら長いほうがいい
+長いより短いほうがベターだけど見て意味がわからないくらいなら長いほうがいい  
 誤解するような省略語も避ける。一般的に定着している省略形はOK
 
-○ kimonoHakamaSet
-✕ kmset
-○ dateTime
-✕ dtm
-○ admin (administrator)
-○ auth (authentication)
-○ btn (button)
-○ bg (background)
+○ kimonoHakamaSet  
+✕ kmset  
+○ dateTime  
+✕ dtm  
+○ admin (administrator)  
+○ auth (authentication)  
+○ btn (button)  
+○ bg (background)  
 
 
 ## モジュール・エレメントはキャメルケースで記述
 
-モジュール・エレメント名にアンダースコアやハイフンは使用しない。
+モジュール・エレメント名にアンダースコアやハイフンは使用しない。  
 → 複数ワードで一つのモジュール・エレメント名となる場合は注意
 
-○ news
-○ headlineNews
-○ news-publishDate
-✕ headline-news
-✕ headline_news
-✕ news-publish-date
-✕ news-publish_date
+○ news  
+○ headlineNews  
+○ news-publishDate  
+✕ headline-news  
+✕ headline_news  
+✕ news-publish-date  
+✕ news-publish_date  
 
 
 ## モディファイアー（派生クラス）
@@ -120,8 +120,8 @@ ex).
 
 ## ファンクション（JS発動クラス）
 
-JS側の処理を発動するためのクラス。
-このクラスがあたっているとHTMLを見るだけでJSの処理が存在することがひと目で分かる。
+JS側の処理を発動するためのクラス。  
+このクラスがあたっているとHTMLを見るだけでJSの処理が存在することがひと目で分かる。  
 → ファンクションにはスタイルをあてない。スタイルを当てたいなら別途クラスを適用する。
 
 ### 基本形
